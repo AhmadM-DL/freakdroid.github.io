@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Refound Policy
-permalink: /refound/
+title: Refund Policy
+permalink: /refund/
 ---
 
 If you are a client and wanna request a refund about any project or service, you have 1 day after that the invoice was paid.
