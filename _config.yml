@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Freakdroid's Blog
-email: Freakdroid@gmail.com
+title: Freakdroid's Personal Web Site
+email: Wilfredo1285@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  La vida se trata de retos, aprender, estudiar, amar y programar.
+  Love, learn, work, study, teach and share that's all.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: Freak_droid

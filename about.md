@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Desarrollado Venezolano amante de la programacion en busca de nuevos retos.
+Venezuelan Developer that like the challenge and work freelance.
+
+If you wanna contact me for any project or service, at the botton of the page you have my personal email and Twitter account.
