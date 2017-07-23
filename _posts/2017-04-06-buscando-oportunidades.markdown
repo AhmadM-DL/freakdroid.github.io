@@ -1,7 +1,17 @@
 ---
 layout: post
 title:  "Buscando oportunidades fuera de mi pais."
+date:   2017-04-06 01:00:00
+last_modified_at:  2017-04-06 01:00:00
+excerpt: "Cambiando mi vida..."
 categories: vida carrera-profesional estudios cambios
+tags:  life
+image:
+  feature: 
+  topPosition: -50px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
 ---
 
 Para nadie es un secreto que actualmente Venezuela ha sido golpeado durante los ultimo años, lo que ha hecho que muchos Venezolanos hayan dejado sus zona de confort y buscar nuevas vidas.
