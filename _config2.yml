@@ -1,0 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+
+# Syntax highlighting
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+permalink:           /:title
+relative_permalinks: true
+
+# Setup
+timezone:            your timezone # eg. Asia/Kathmandu
+locale:              your locale language # eg. en_us
+name:				         site name
+title:               site title
+tagline:             'tagline'
+description:         'description'
+url:                 test
+rss:                 rss feed url
+baseurl:             '/'
+baseurl_posts_img:   '/assets/images/posts/'
+baseurl_featured_img: '/assets/images/hero/'
+baseurl_featured_thumbnail: '/assets/images/thumbnail/'
+baseurl_javascripts: '/assets/javascripts/'
+icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
+disqus:              disqus_shortname # get it on https://disqus.com/admin/
+
+author:
+  name:           	 Wilfredo Perez
+  url:            	 your site url
+  facebook:          profile.php?id=100012303975458
+  twitter:           gameoverwill
+  linkedin:          wilfredo-roberto-perez-lopez-3b92185b
+
+fb_admins:           your facebook profile id
+fb_appid:            your facebook app id
+
+# Server
+destination:      	 ./_site
+exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
+port:             	 9001
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
