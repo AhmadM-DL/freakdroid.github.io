@@ -5,41 +5,46 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-title: Freakdroid's Personal Web Site
-email: Wilfredo1285@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Love, learn, work, study, teach and share that's all.
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: Freak_droid
-github_username:  Freakdroid
 
-name:	Blog de Freakdroid
-
-# Build settings
-markdown: kramdown
+# Syntax highlighting
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
-permalink:           /:title.html
+permalink:           /:title
+relative_permalinks: true
+
+# Setup
+timezone:            your timezone # eg. Asia/Kathmandu
+locale:              your locale language # eg. en_us
+name:				         site name
+title:               site title
+tagline:             'tagline'
+description:         'description'
+url:                 test
+rss:                 rss feed url
 baseurl:             '/'
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-icon:                /assets/images/icon.jpg
+icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
+disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
-
-#Author info
 author:
-  name:           	 Wilfredo Pérez
-  twitter:           GameOverWill
+  name:           	 Wilfredo Perez
+  url:            	 your site url
   facebook:          profile.php?id=100012303975458
-  linkedin:          wilfredo-roberto-perez-lopez-3b92185b/
+  twitter:           gameoverwill
+  linkedin:          wilfredo-roberto-perez-lopez-3b92185b
 
-#Server
+fb_admins:           your facebook profile id
+fb_appid:            your facebook app id
+
+# Server
+destination:      	 ./_site
 exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
 port:             	 9001
-destination:      	 ./_site
 
 defaults:
   -
@@ -48,5 +53,3 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-#Social media
-disqus:              freakdroid-github-io # get it on https://disqus.com/admin/
