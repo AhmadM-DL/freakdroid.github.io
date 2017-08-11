@@ -26,12 +26,15 @@ baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
 baseurl_javascripts: '/assets/javascripts/'
-
+icon:                /assets/images/icon.jpg
 
 
 #Author info
 author:
   name:           	 Wilfredo Pérez
+  twitter:           GameOverWill
+  facebook:          profile.php?id=100012303975458
+  linkedin:          wilfredo-roberto-perez-lopez-3b92185b/
 
 #Server
 exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
